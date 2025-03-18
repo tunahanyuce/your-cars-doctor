@@ -1,2 +1,90 @@
+body {
+ margin: 0;
+ padding: 2rem 10px; /* Üst ve alt için 1rem boşluk */
+  background-color: #FFF8D7;
+  height: auto;
+  min-height: 700px;
 
+}
+.container {
 
+  width: 1010px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-color:#1a7091 ;
+  border:2px solid gray;
+  box-sizing: border-box;
+  
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 200px;
+  height: 100px;
+  border-bottom:2px solid gray;
+  border-right: 2px solid gray;
+}
+img {
+  width: 150px;
+  height: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header {
+  width: 500px;
+  height: 100px;
+  border-bottom:2px solid gray;
+  border-right:2px solid gray;
+  text-align: center;
+}
+.content3 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.content4 {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-bottom: 2px solid gray;
+
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  width: 200px;
+  height: 400px;
+  text-align: left;
+  border-right: 2px solid gray;
+
+}
+.link li{
+    list-style: none;
+}
+.word{
+    width:500px;
+    height: 400px;
+    border-right: 2px solid gray;
+}
+.content7{
+    width:200px ;
+    height: 400px;
+    text-align: center;
+    border-right: 2px solid gray;
+}
+.content8{
+    width: 100px;
+    height: 400px;
+    text-align: center;
+}
