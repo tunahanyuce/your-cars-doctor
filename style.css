@@ -9,11 +9,17 @@ body {
   width: 1010px;
   display: flex;
   margin: 0 auto;
+  margin-right: 20%;
+  margin-left: 20%;
   flex-wrap: wrap;
   background-color: #1a7091;
   border: 2px solid gray;
   box-sizing: border-box;
 }
+.inner-element {
+    width: 100%; /* İç elemanlar container'a uyum sağlar */
+    box-sizing: border-box; /* Padding ve border dahil edilir */
+  }
 .top {
   display: flex;
   justify-content: center;
