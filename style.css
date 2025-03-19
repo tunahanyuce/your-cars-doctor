@@ -2,24 +2,27 @@ body {
   margin: 0;
   padding: 3rem 50px; /*Üst ve alt için 1rem boşluk */
   background-color: #fff8d7;
+  width: 100%;
   height: auto;
   min-height: 700px;
 }
 .container {
   width: 1010px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 5%;
+  margin-left: 5%;
   flex-wrap: wrap;
   background-color: #1a7091;
   border: 2px solid gray;
   box-sizing: border-box;
 }
 .inner-element {
-    width: 100%; /* İç elemanlar container'a uyum sağlar */
-    box-sizing: border-box; /* Padding ve border dahil edilir */
-  }
+  width: 100%; /* İç elemanlar container'a uyum sağlar */
+  box-sizing: border-box; /* Padding ve border dahil edilir */
+}
 .top {
   display: flex;
   justify-content: center;
